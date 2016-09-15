@@ -1,22 +1,21 @@
 .horizon {
-    top: 0;
-    height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 0;
 }
 
 .horizon img {
+    width: 2250px;
 }
 
-.middle {
+.mid {
     top: 0;
     z-index: 1;
     position: absolute;
 }
 
 .middle img {
-
+    height: 95%;
 }
 
 .foreground {
@@ -30,8 +29,16 @@
 }
 
 .front {
-    width: 425em;
+    width: 1000%;
     height: 100%;
     z-index: 500;
     top: 0;
+    position: absolute;
+}
+
+#hello {
+  color: white;
+  font-size: 10em;
+  top: 150px;
+  margin-left: 300px;
 }
