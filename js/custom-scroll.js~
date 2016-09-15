@@ -4,12 +4,9 @@ $(document).ready(function(){
 
     function pageScroll() {
         window.scrollBy(0,1);
-        scrolldelay = setTimeout(pageScroll,10);
     }
 
-    $(document).ready(function(){
-      pageScroll();
-    });
+    pageScroll();
 
   // Ensure we are at to top of the page.
   $('html, body').animate({scrollTop: 0}, 20);
